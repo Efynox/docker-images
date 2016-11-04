@@ -7,4 +7,4 @@ VOLUME /var/lib/letsencrypt
 
 EXPOSE 80 443
 
-ENTRYPOINT /bin/sh certbot
+ENTRYPOINT certbot
